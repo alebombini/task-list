@@ -1,0 +1,28 @@
+import {Task} from "./Task"
+
+export const TASKS: Task[] = [
+    {
+        id: 1,
+        text: "Terminar primer modulo de Angular",
+        day: "Septiembre 17 a las 20:00",
+        reminder: true
+    },
+    {
+        id: 2,
+        text: "Pasar mi portfolio a Angular",
+        day: "Septiembre 19 a las 18:00",
+        reminder: true
+    },
+    {
+        id: 3,
+        text: "Investigar sobre Bootstrap",
+        day: "Septiembre 18 a las 20:00",
+        reminder: false
+    },
+    {
+        id: 4,
+        text: "Empezar modulo 4",
+        day: "Octubre 2 a las 10:00",
+        reminder: true
+    },
+]
